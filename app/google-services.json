@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "290671537429",
+    "firebase_url": "https://emergency-help-app-852dc-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "emergency-help-app-852dc",
+    "storage_bucket": "emergency-help-app-852dc.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:290671537429:android:8f297020fea731bd2f4d1c",
+        "android_client_info": {
+          "package_name": "com.example.help_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnRCFP8Med4kk2kaCK5IU2PWUAW2CXdM0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
