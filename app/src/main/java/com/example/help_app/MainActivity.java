@@ -60,9 +60,9 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
         tvBlood.setText("Blood Type: " + prefs.getString("blood", "Unknown"));
 
         // Alert Listeners with real phone numbers
-        btnFriend1.setOnClickListener(v -> dispatchFullAlert("9353443878", "Fire"));
-        btnFriend2.setOnClickListener(v -> dispatchFullAlert("7980993308", "Police"));
-        btnFriend3.setOnClickListener(v -> dispatchFullAlert("8112868325", "Med"));
+        btnFriend1.setOnClickListener(v -> dispatchFullAlert("<firebrigade_number>", "Fire"));
+        btnFriend2.setOnClickListener(v -> dispatchFullAlert("Police_number", "Police"));
+        btnFriend3.setOnClickListener(v -> dispatchFullAlert("Medical_number", "Med"));
 
         findViewById(R.id.btnAddProfile).setOnClickListener(v -> {
             Intent i = new Intent(this, SetupActivity.class);
